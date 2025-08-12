@@ -21,4 +21,4 @@ def month_to_season(month):
 # Пример использования функции
 if __name__ == "__main__":
     for test_month in range(1, 13):
-        print(f"Месяц {test_month}: {month_to_season(test_month)}")
+        print(month_to_season(int(input('4'))))
